@@ -11,7 +11,7 @@ export default function Home() {
   const [isBlinking, setIsBlinking] = useState(true);
 
   useEffect(() => {
-    alert("AzarfX , azfar and arifkoyani creations , let start Bloging")
+    alert("AzarfX => Azfar and Arifkoyani creations let start Bloging")
     const interval = setInterval(() => {
       setIsBlinking(prev => !prev);
     }, 1000);
@@ -92,7 +92,7 @@ export default function Home() {
     </main>
 
       {/* Main Content */}
-      <div className="pt-20 pb-12 px-4 sm:px-6 lg:px-8">
+      <div className="pt-20 pb-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto grid grid-cols-12 gap-8">
           {/* Left Sidebar */}
           <div className="hidden lg:block col-span-2">
